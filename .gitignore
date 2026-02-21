@@ -1,0 +1,31 @@
+# === Project outputs (contain copyrighted creative work) ===
+projects/
+
+# === Source materials & reference documents (copyrighted) ===
+*.pdf
+*.docx
+영화시나리오연구_영화적묘사_markdown.md
+prompts/writer/step_07_examples.md
+
+# === Temporary files ===
+temp_pages/
+
+# === Claude Code local settings ===
+.claude/
+
+# === bkit plugin local state ===
+docs/.bkit-memory.json
+docs/.pdca-status.json
+docs/.pdca-snapshots/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini

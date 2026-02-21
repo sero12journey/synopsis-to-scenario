@@ -1,0 +1,23 @@
+{
+  "project_name": "",
+  "created_at": "",
+  "current_step": -1,
+  "status": "initialized",
+  "steps": {
+    "0": {"name": "critique", "agent": "analyst", "status": "pending", "version": 0},
+    "1": {"name": "act_structure", "agent": "analyst", "status": "pending", "version": 0},
+    "2": {"name": "beat_sheet", "agent": "analyst", "status": "pending", "version": 0},
+    "3": {"name": "image_system", "agent": "writer", "status": "pending", "version": 0},
+    "4": {"name": "characters", "agent": "writer", "status": "pending", "version": 0},
+    "5": {"name": "scene_list", "agent": "writer", "status": "pending", "version": 0},
+    "6": {"name": "treatment", "agent": "writer", "status": "pending", "version": 0},
+    "7": {"name": "first_draft", "agent": "writer", "status": "pending", "version": 0},
+    "8": {"name": "visual_revision", "agent": "critic+writer", "status": "pending", "version": 0}
+  },
+  "checkpoints": {
+    "A": {"after_step": 2, "status": "pending", "revision_count": 0, "max_revisions": 3},
+    "B": {"after_step": 4, "status": "pending", "revision_count": 0, "max_revisions": 3},
+    "C": {"after_step": 6, "status": "pending", "revision_count": 0, "max_revisions": 3}
+  },
+  "revision_log": []
+}

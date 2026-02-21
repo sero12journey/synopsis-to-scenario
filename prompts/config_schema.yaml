@@ -1,0 +1,32 @@
+# ProjectConfig Schema
+# 프로젝트 초기화 시 이 형식으로 config.yaml을 작성한다.
+#
+# 사용법:
+#   1. projects/{project_name}/config.yaml에 복사
+#   2. 각 필드를 프로젝트에 맞게 수정
+#   3. input/ 폴더에 시놉시스 및 레퍼런스 파일 배치
+
+title: ""                    # 작품 제목 (가제 포함)
+
+source_format: ""            # 원작 형식
+  # shortform   - 숏폼 (90초~3분 × N화)
+  # webdrama    - 웹드라마
+  # novel       - 소설/웹소설
+  # webtoon     - 웹툰
+  # real_story  - 실화 기반
+  # original    - 오리지널 시나리오
+
+target_duration: 90          # 목표 러닝타임 (분), 기본값 90
+
+genre: []                    # 장르 태그 (예: ["실화 범죄", "심리 스릴러", "로맨스"])
+
+tone: ""                     # 톤 (예: "로맨스→스릴러 전환", "다크 코미디")
+
+theme_direction: ""          # 테마적 방향성
+  # 한 문장으로 이 작품이 말하고자 하는 것
+
+synopsis_file: ""            # 시놉시스 파일명 (input/ 내)
+  # 예: synopsis.md, synopsis.pdf
+
+reference_files: []          # 작법 레퍼런스 파일명 목록 (input/references/ 내)
+  # 예: ["screenplay_theory.md", "touch_screenplay.docx"]
