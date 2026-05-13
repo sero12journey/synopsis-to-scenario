@@ -58,7 +58,11 @@ Plant (S#XX) → Payoff (S#YY): [복선 내용]
 
 ## 출력 형식
 
+파일 첫 줄에 표준 라벨을 박는다.
+
 ```markdown
+[STEP 6: 씬 리스트]
+
 # STEP 6: 씬 리스트
 
 ## 1막 (S#1 ~ S#XX)

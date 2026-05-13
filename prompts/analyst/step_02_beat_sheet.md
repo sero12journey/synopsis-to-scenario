@@ -60,7 +60,11 @@ target_duration이 90이 아닌 경우, 시간대를 비례 조정하라.
 
 ## 출력 형식
 
+파일 첫 줄에 표준 라벨을 박는다.
+
 ```markdown
+[STEP 2: 비트 시트]
+
 # STEP 2: 비트 설계 (Beat Sheet)
 
 ## 비트 시트

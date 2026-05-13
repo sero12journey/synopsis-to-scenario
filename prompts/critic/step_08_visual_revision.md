@@ -71,7 +71,11 @@
 
 ## Phase 1 출력 형식
 
+파일 첫 줄에 표준 라벨을 박는다.
+
 ```markdown
+[STEP 8: 시각 개고 진단]
+
 # STEP 8: 시각적 개고 진단 (Critic)
 
 ## 1. 대사 과다 장면
@@ -136,9 +140,9 @@ Critic의 진단 결과를 바탕으로 1고를 수정하라.
 
 ### 출력
 
-수정 완료된 최종 시나리오를 저장:
-- `projects/{name}/output/step_08_visual_revision.md` — 수정 전후 대비 요약
-- `projects/{name}/output/final_screenplay.md` — 최종 시나리오
+수정 완료된 최종 시나리오를 저장. 두 파일 모두 첫 줄에 표준 라벨을 박는다:
+- `projects/{name}/output/step_08_visual_revision.md` (첫 줄: `[STEP 8: 시각 개고 진단]`) — 수정 전후 대비 요약
+- `projects/{name}/output/final_screenplay.md` (첫 줄: `[최종: 시나리오]`) — 최종 시나리오
 
 ## 최종 점검
 
