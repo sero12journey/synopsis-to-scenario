@@ -104,6 +104,7 @@ tone: string               # Tone description
 theme_direction: string    # Thematic direction
 reference_docs: file[]     # Screenwriting reference documents
 synopsis_doc: file         # Source synopsis
+style_reference: file      # (Optional) preferred prose style sample, matched in STEP 7
 ```
 
 ## Step Output Schema

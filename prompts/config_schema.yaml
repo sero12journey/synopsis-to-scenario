@@ -30,3 +30,8 @@ synopsis_file: ""            # 시놉시스 파일명 (input/ 내)
 
 reference_files: []          # 작법 레퍼런스 파일명 목록 (input/references/ 내)
   # 예: ["screenplay_theory.md", "touch_screenplay.docx"]
+
+style_reference: ""          # (선택) 문체 샘플 파일명 (input/ 내)
+  # 사용자가 선호하는 시나리오 문체 샘플 (기존 작품 발췌, 본인이 쓴 글 등)
+  # 지정하면 STEP 7 집필 시 문장 길이, 리듬, 지문 밀도, 대사 어투를 이 샘플에 맞춘다
+  # 비워두면 기본 참고 예시(step_07_examples.md)만으로 집필한다

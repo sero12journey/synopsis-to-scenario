@@ -21,6 +21,11 @@
 **집필 참고 예시** (문체, 밀도, 대지문/소지문 운용을 참고한다):
 - `prompts/writer/step_07_examples.md` — 실제 한국 시나리오 발췌 3장면
 
+**문체 샘플** (config.yaml에 `style_reference`가 지정된 경우에만):
+- `projects/{name}/input/{style_reference}` — 사용자가 선호하는 문체 샘플
+- 집필 전에 샘플의 문장 길이, 리듬, 지문 밀도, 대사 어투를 분석하고, 집필 문체를 이 샘플에 맞춘다
+- 단, 한국 시나리오 형식 규칙과 집필 원칙(카메라 불가능 서술 금지 등)이 샘플과 충돌하면 **형식 규칙이 우선**한다
+
 **원본 보존 점검용**:
 - `projects/{name}/input/` — 원본 시놉시스
 - `projects/{name}/output/step_00_critique.md` — 시놉시스 사전 분석 (강점과 보완점)
