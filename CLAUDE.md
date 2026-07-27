@@ -91,6 +91,7 @@ Six universal improvement areas to check against any source material:
 |------|-------------|---------|
 | `영화시나리오연구_영화적묘사_markdown.md` | 영상적 묘사 7가지 기법, Tony Tost virtual shot list, McKee 이미지 시스템 사례, 서브텍스트 번역, 한국 시나리오 특성, 숏폼 적용 | Writer (STEP 3,4,7), Critic (STEP 8) |
 | `영화 시나리오 작법 연구 개요.docx` | 구조 이론 (Campbell/McKee/Field/Snyder/Truby), Unity Arc, 복선-회수 기법, 피해야 할 클리셰, 명작 사례 (기생충/EEAAO/헤어질 결심), AI 시나리오 생태계 | Analyst (STEP 0), Writer (STEP 4,5) |
+| **You.com Research API** (`ydc-index.io/v1/research`) | 사실 확인, 전문 분야 검증, 역사적 디테일 조사 (인용과 함께 반환) | Writer (STEP 5) |
 
 ## ProjectConfig Schema
 
